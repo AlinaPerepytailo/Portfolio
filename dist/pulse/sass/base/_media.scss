@@ -1,0 +1,275 @@
+@media (max-width: 1200px){
+ .promo{
+     background-size: 100% 650px;
+    }   
+.carousel{
+    .tns-item{
+        img{
+            width: 668px;
+        }
+    }
+        .next,.prev{
+        display: none;
+        }
+    
+    }
+.opinion{
+    &__photo{
+        padding-left: 57px;
+
+    }
+}   
+}
+
+@media (max-width: 991px){
+    .container{
+        padding-right: 10px;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .promo{
+        min-height: 600px;
+        padding-bottom: 50px;
+        background-size: 100% 600px;
+        &__header{
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+    .consultation
+        .container{
+            padding-left: 10px;
+        }
+    .catalog__content_active{
+        justify-content: center;
+    }
+    .opinion{
+        &__descr {
+            padding: 0 30px 0 30px;
+        }
+    }       
+
+}
+@media (max-width: 767px){
+    .container{
+        padding-left: 10px;}
+    .header__official{
+        line-height: 21px;
+        span{
+            font-size: 14px;
+            line-height: 26px;
+        }
+    }
+    .header__phone{
+        font-size: 16px;
+    }
+    .header__logo{
+        width: 220px;
+    }
+    
+    .promo{
+        min-height: 550px;
+        padding-bottom: 50px;
+        background-size: 100% 550px;
+        &__wrapper{
+            margin-top: 50px;
+        }
+        &__icons{
+            margin-top: 50px;
+        }
+    }
+    .advantages{
+        padding: 45px 0 40px 0;
+        &__icons{
+            margin-top: 0;
+            flex-direction: column;
+        }
+        &__icon{
+            margin-top: 30px;
+        }
+        &__text{
+            font-size: 17px;
+            max-width: 100%;
+            margin-right: 50px;
+            margin-left: 50px;
+        }   
+    }  
+    .consultation{
+        .title_left {
+        font-size: 24px;
+        line-height: 46px;
+        } 
+    }
+    .carousel{
+        .tns-item{
+            img{
+                width: 540px;
+            }
+        }
+    }
+    .catalog {
+        &__tabs{
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        &__tab {
+            width: 150px;
+            height: 39px;
+            font-size: 14px;
+            line-height: 37px;
+        }
+    }
+    .opinion{
+        &__item{
+            flex-direction: column;
+            align-items:center;
+        }
+        &__photo{
+            padding: 0;
+            margin-bottom: 12px;
+        }
+        &__descr{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__text{
+            text-align: center;
+        }
+    } 
+    .footer{
+        &__info{
+            width: 342px;
+            height: 209px;
+            padding-top: 20px;
+        }
+        &__addr{
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .modal{
+        width: 324px;
+        .feed-form{
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 575px){
+    .promo{
+        background-size: 100% 694px;
+    }
+    .header{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+            width: 205px;
+        }
+    }
+    .header__official
+        span{
+            font-size: 13px;
+        }
+    .header__phone{
+        font-size: 14px;
+    }
+    .button{
+        width: 130px;
+        height: 26px;
+        font-size: 11px;
+    }
+    .promo__wrapper{
+        align-items: center;
+        justify-content: center;
+    }
+    .promo__header{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .promo__subheader{
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .promo__icons{
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .promo__icon{
+        margin-top: 10px;
+        img{
+            margin-bottom: 10px;
+        }
+    }
+    .button_main{
+        margin-top: 38px;
+        width: 163px;
+        height: 31px;
+        font-size: 11px;
+    }
+    .consultation{
+        &__dsc{
+            font-size: 17px;
+            text-align: center;
+        }
+        .title_left {
+            font-size: 18px;
+            line-height: 45px;
+            text-align: center;
+        }
+        .button_submit{
+            width: 100%;
+            height: 58px;
+            font-size: 16px;
+        }
+    }
+    .carousel{
+        .tns-item{
+            img{
+                width: 295px;
+            }
+        }   
+    }
+    .catalog{
+        &__tabs{
+            flex-direction: column;
+        }
+    }
+    .opinion{
+        &__item{
+            flex-direction: column;
+        }
+        &__descr{
+            padding: 0;
+        }
+    }
+    .footer{
+        &__info{
+            width: 274px;
+            height: 180px;
+            padding: 5px;
+        }
+        &__social-item{
+            width: 40px;
+            height: 40px;
+            img{
+                height: 20px;
+            }
+        }
+    }
+    .modal{
+        width:320px;
+        .button_submit{
+            width: 250px;
+            height: 30px;
+        }
+        input{
+            height: 48px;
+        }
+    }
+}

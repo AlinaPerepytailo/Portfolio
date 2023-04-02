@@ -9,3 +9,11 @@ hamburger.addEventListener('click',() =>{
 close.addEventListener('click',() =>{
     menu.classList.remove('active');
 });
+
+const counters = document.querySelectorAll('.skills__grade-per'),
+    lines = document.querySelectorAll('.skills__grade-line_orange');
+
+    counters.forEach((item, i) => {
+        lines[i].style.width = item.innerHTML;
+
+    });
